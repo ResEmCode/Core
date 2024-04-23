@@ -1,0 +1,32 @@
+{
+  "name": "resemcode-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResEmCode/Core.git"
+  },
+  "keywords": [
+    "prettier",
+    "stylelint",
+    "eslint",
+    "builder",
+    "husky"
+  ],
+  "author": {
+    "name":"ResEmCode 🌿",
+    "url":"https://github.com/ResEmCode"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ResEmCode/Core/issues"
+  },
+  "homepage": "https://github.com/ResEmCode/Core#readme",
+  "workspaces": [
+    "tools/*"
+  ]
+}

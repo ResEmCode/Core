@@ -1,0 +1,51 @@
+{
+  "name": "@resemcode/eslint",
+  "version": "1.0.0",
+  "description": "eslint configs",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/ResEmCode/Core#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResEmCode/Core.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "react"
+  ],
+  "author": {
+    "name": "ResEmCode 🌿",
+    "url": "https://github.com/ResEmCode"
+  },
+  "bugs": {
+    "url": "https://github.com/ResEmCode/Core/issues"
+  },
+  "files": [
+    ".eslintrc.cjs"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  }
+}
