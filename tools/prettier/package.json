@@ -1,0 +1,37 @@
+{
+  "name": "@resemcode/prettier",
+  "version": "1.0.0",
+  "description": "prettier configs",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResEmCode/Core.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": {
+    "name": "ResEmCode 🌿",
+    "url": "https://github.com/ResEmCode"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ResEmCode/Core/issues"
+  },
+  "homepage": "https://github.com/ResEmCode/Core#readme",
+  "files": [
+    ".prettierrc.cjs"
+  ],
+  "lint-staged": {
+    "*.js": "prettier --write"
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}
