@@ -1,0 +1,37 @@
+{
+  "name": "@resemcode/stylelint",
+  "version": "1.0.0",
+  "description": "stylelint configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResEmCode/Core.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": {
+    "name": "ResEmCode 🌿",
+    "url": "https://github.com/ResEmCode"
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ResEmCode/Core/issues"
+  },
+  "homepage": "https://github.com/ResEmCode/Core#readme",
+  "peerDependencies": {
+    "stylelint": "^16.2.1"
+  },
+  "dependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-idiomatic-order": "^10.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}
